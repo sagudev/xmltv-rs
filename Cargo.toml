@@ -1,0 +1,16 @@
+[package]
+name = "xmltv-rs"
+version = "0.1.0"
+authors = ["sagudev <samo.golez@outlook.com>"]
+edition = "2018"
+
+[lib]
+name = "xmltv-rs"
+path = "src/lib.rs"
+
+[[bin]]
+name = "xmltv"
+path = "src/bin.rs"
+
+[dependencies]
+xmler = { path="./xmler" }

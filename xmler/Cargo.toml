@@ -1,0 +1,15 @@
+[package]
+name = "xmler"
+version = "0.1.0"
+authors = ["sagudev <samo.golez@outlook.com>"]
+edition = "2018"
+
+[lib]
+name = "xmler-lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "xmler"
+path = "src/bin.rs"
+
+[dependencies]
